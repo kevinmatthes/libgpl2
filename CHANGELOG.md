@@ -47,6 +47,8 @@
 ### Added
 
 * add GPL 2.0 license
+* create list of authors
+* create project meta data for repository manual
 * create repository README
 * create this changelog
 * create this repository
