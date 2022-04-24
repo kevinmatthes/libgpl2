@@ -119,6 +119,8 @@ if length (glob (compiler.out));
     delete (compiler.out);
 end;
 
+disp ('Done.');
+
 
 
 % End build instruction.
