@@ -54,6 +54,10 @@
 * import `gpl2_version.c` from `italiano`
 * import `gpl2_warranty.c` from `italiano`
 
+### Removed
+
+* submodule `italiano`
+
 ## [0.1] -- 2022-04-24
 
 ### Added
