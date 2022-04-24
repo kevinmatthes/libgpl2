@@ -4,6 +4,3 @@
 [submodule "routines"]
 	path = routines
 	url = https://github.com/kevinmatthes/routines
-[submodule "italiano"]
-	path = italiano
-	url = https://github.com/kevinmatthes/italiano
