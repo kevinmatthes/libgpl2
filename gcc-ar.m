@@ -47,6 +47,14 @@
 %%%%
 
 % Software.
+archiver.args   = 'rsv';
+archiver.in     = '*.o';
+archiver.out    = ['lib' 'gpl2' '.a'];
+archiver.self   = 'ar';
+archiver.call   = [ archiver.self ' ' archiver.args ' ' archiver.out ' '     ...
+                    archiver.in                                              ...
+                  ];
+
 compiler.in     = '*.c';
 compiler.flags  = ' -Wall -Werror -Wextra -Wpedantic -std=c99 -c ';
 compiler.self   = 'gcc';
