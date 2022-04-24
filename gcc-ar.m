@@ -47,25 +47,25 @@
 %%%%
 
 % Software.
-software.compiler.self  = ' gcc ';
-software.compiler.flags = ' -Wall -Werror -Wextra -Wpedantic -std=c99 -c ';
-software.compiler.call  = [software.compiler.self software.compiler.flags];
+compiler.self   = 'gcc';
+compiler.flags  = ' -Wall -Werror -Wextra -Wpedantic -std=c99 -c ';
+compiler.call   = [compiler.self ' ' compiler.flags];
 
 
 
 % Files.
-files.self      = ' gcc-objects.m ';
-files.source    = ' *.c ';
+files.self      = 'gcc-objects.m';
+files.source    = '*.c';
 
 
 
 % Control flow.
-banner  = ['[' files.self '] '];
+banner  = ['[ ' files.self ' ] '];
 
 
 
 % Call adjustment.
-software.compiler.call  = [software.compiler.call files.source];
+compiler.call  = [compiler.call ' ' files.source];
 
 
 
@@ -83,8 +83,8 @@ disp ([banner 'Begin build instruction.']);
 % Call C compiler.
 disp ([banner 'Compile object files ...']);
 
-disp (software.compiler.call);
-system (software.compiler.call);
+disp (compiler.call);
+system (compiler.call);
 
 disp ([banner 'Done.']);
 
