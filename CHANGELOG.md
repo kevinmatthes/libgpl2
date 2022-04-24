@@ -44,6 +44,10 @@
 
 ## [Unreleased]
 
+### Added
+
+* import `GPL_2.0.h` from `italiano`
+
 ## [0.1] -- 2022-04-24
 
 ### Added
