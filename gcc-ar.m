@@ -54,13 +54,13 @@ compiler.call   = [compiler.self ' ' compiler.flags];
 
 
 % Files.
-files.self      = 'gcc-objects.m';
 files.source    = '*.c';
 
 
 
-% Control flow.
-banner  = ['[ ' files.self ' ] '];
+% Miscellaneous.
+misc.self   = 'gcc-objects.m';
+misc.banner = ['[ ' misc.self ' ] '];
 
 
 
