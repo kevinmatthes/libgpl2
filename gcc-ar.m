@@ -55,10 +55,10 @@ archiver.call   = [ archiver.self ' ' archiver.args ' ' archiver.out ' '     ...
                     archiver.in                                              ...
                   ];
 
+compiler.args   = ' -Wall -Werror -Wextra -Wpedantic -std=c99 -c ';
 compiler.in     = '*.c';
-compiler.flags  = ' -Wall -Werror -Wextra -Wpedantic -std=c99 -c ';
 compiler.self   = 'gcc';
-compiler.call   = [compiler.self ' ' compiler.flags ' ' compiler.in];
+compiler.call   = [compiler.self ' ' compiler.args ' ' compiler.in];
 
 
 
