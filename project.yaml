@@ -42,10 +42,10 @@
 ################################################################################
 
 title:
-  - docs-snippets
+  - libgpl2
 
 subtitle:
-  - A Collection of Common Documentation Configuration Files
+  - A Set of Utility Functions and Headers Concerning the GPL 2.0 License
 
 ################################################################################
 ---
