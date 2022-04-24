@@ -47,6 +47,11 @@
 ### Added
 
 * import `GPL_2.0.h` from `italiano`
+* import `gpl2_copyright_line.c` from `italiano`
+* import `gpl2_information.c` from `italiano`
+* import `gpl2_license.c` from `italiano`
+* import `gpl2_version.c` from `italiano`
+* import `gpl2_warranty.c` from `italiano`
 
 ## [0.1] -- 2022-04-24
 
