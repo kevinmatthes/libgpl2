@@ -44,6 +44,8 @@
 
 ## [Unreleased]
 
+## [0.1] -- 2022-04-24
+
 ### Added
 
 * add GPL 2.0 license
