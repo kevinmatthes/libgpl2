@@ -19,10 +19,10 @@
 %%%%
 %%
 %%  FILE
-%%      gcc-objects.m
+%%      gcc-ar.m
 %%
 %%  BRIEF
-%%      Create object files from C source code using GCC.
+%%      Create a static library from C source code using GCC and `ar`.
 %%
 %%  AUTHOR
 %%      Kevin Matthes
@@ -59,7 +59,7 @@ files.source    = '*.c';
 
 
 % Miscellaneous.
-misc.self   = 'gcc-objects.m';
+misc.self   = 'gcc-ar.m';
 misc.banner = ['[ ' misc.self ' ] '];
 
 
