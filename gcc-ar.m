@@ -47,25 +47,16 @@
 %%%%
 
 % Software.
-compiler.self   = 'gcc';
+compiler.in     = '*.c';
 compiler.flags  = ' -Wall -Werror -Wextra -Wpedantic -std=c99 -c ';
-compiler.call   = [compiler.self ' ' compiler.flags];
-
-
-
-% Files.
-files.source    = '*.c';
+compiler.self   = 'gcc';
+compiler.call   = [compiler.self ' ' compiler.flags ' ' compiler.in];
 
 
 
 % Miscellaneous.
 misc.self   = 'gcc-ar.m';
 misc.banner = ['[ ' misc.self ' ] '];
-
-
-
-% Call adjustment.
-compiler.call  = [compiler.call ' ' files.source];
 
 
 
