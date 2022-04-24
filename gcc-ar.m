@@ -76,21 +76,21 @@ compiler.call  = [compiler.call ' ' files.source];
 %%%%
 
 % Begin build instruction.
-disp ([banner 'Begin build instruction.']);
+disp ([misc.banner 'Begin build instruction.']);
 
 
 
 % Call C compiler.
-disp ([banner 'Compile object files ...']);
+disp ([misc.banner 'Compile object files ...']);
 
 disp (compiler.call);
 system (compiler.call);
 
-disp ([banner 'Done.']);
+disp ([misc.banner 'Done.']);
 
 
 
 % End build instruction.
-disp ([banner 'End build instruction.']);
+disp ([misc.banner 'End build instruction.']);
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
