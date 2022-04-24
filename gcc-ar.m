@@ -79,6 +79,17 @@ disp ([misc.banner 'Begin build instruction.']);
 
 
 
+% Clean outdated library.
+fprintf ([misc.banner 'Remove outdated version of ' archiver.out ' ... ']);
+
+if length (glob (archiver.out));
+    delete (archiver.out);
+end;
+
+disp ('Done.');
+
+
+
 % Call C compiler.
 disp ([misc.banner 'Compile object files ...']);
 
@@ -86,6 +97,27 @@ disp (compiler.call);
 system (compiler.call);
 
 disp ([misc.banner 'Done.']);
+
+
+
+% Call library creation tool.
+if length (glob (archiver.in));
+    disp ([misc.banner 'Create library ' archiver.out ' ...']);
+
+    disp (archiver.call);
+    system (archiver.call);
+
+    disp ([misc.banner 'Done.']);
+end;
+
+
+
+% Clean artifacts.
+fprintf ([misc.banner 'Remove build artifacts ... ']);
+
+if length (glob (compiler.out));
+    delete (compiler.out);
+end;
 
 
 
