@@ -46,6 +46,7 @@
 
 ### Added
 
+* build instruction:  library creation
 * import `GPL_2.0.h` from `italiano`
 * import `gpl2_copyright_line.c` from `italiano`
 * import `gpl2_information.c` from `italiano`
