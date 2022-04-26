@@ -47,6 +47,7 @@
 ### Added
 
 * build instruction:  Doxygen documentation
+* Doxygen settings
 
 ### Changed
 
