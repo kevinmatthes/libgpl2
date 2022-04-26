@@ -44,6 +44,10 @@
 
 ## [Unreleased]
 
+### Fixed
+
+* add missing docstring
+
 ## [0.2] -- 2022-04-24
 
 ### Added
