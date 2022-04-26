@@ -47,12 +47,14 @@
 ### Fixed
 
 * add missing docstring
+* add missing changelog items
 
 ## [0.2] -- 2022-04-24
 
 ### Added
 
 * build instruction:  library creation
+* create `gcc-ar.m`
 * import `GPL_2.0.h` from `italiano`
 * import `gpl2_copyright_line.c` from `italiano`
 * import `gpl2_information.c` from `italiano`
