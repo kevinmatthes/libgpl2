@@ -58,6 +58,7 @@
 
 * add missing docstring
 * add missing changelog items
+* wrong docstrings
 
 ## [0.2] -- 2022-04-24
 
