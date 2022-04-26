@@ -44,6 +44,10 @@
 
 ## [Unreleased]
 
+### Added
+
+* build instruction:  Doxygen documentation
+
 ### Changed
 
 * adjust README description
