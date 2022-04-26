@@ -47,6 +47,7 @@
 ### Changed
 
 * adjust README description
+* update `docs-snippets`
 
 ### Fixed
 
