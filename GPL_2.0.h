@@ -32,8 +32,12 @@
 
 /******************************************************************************/
 
-/*
- * Security settings.
+/**
+ * \brief   Prevent this header from being included twice.
+ *
+ * In case this header file should be included more than just once, unexpected
+ * side effects might take place.  This unintended behaviour will be avoided by
+ * the definition of this macro.
  */
 
 #pragma once
