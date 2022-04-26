@@ -56,7 +56,7 @@ software.make.call  = [software.make.self software.make.flags];
 
 
 % Directories.
-directories.doxygen.make    = '';
+directories.doxygen.make    = './latex/';
 
 
 
@@ -65,8 +65,8 @@ files.refman.pdf    = [directories.doxygen.make 'refman.pdf'];
 files.refman.tex    = [directories.doxygen.make 'refman.tex'];
 
 files.self      = 'doxygen.m';
-files.source    = '';
-files.target    = '';
+files.source    = 'libgpl2.doxygen.cfg';
+files.target    = 'libgpl2.pdf';
 
 
 
