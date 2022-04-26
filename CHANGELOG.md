@@ -44,6 +44,10 @@
 
 ## [Unreleased]
 
+### Changed
+
+* adjust README description
+
 ### Fixed
 
 * add missing docstring
