@@ -44,6 +44,8 @@
 
 ## [Unreleased]
 
+## [1.0] -- 2022-04-26
+
 ### Added
 
 * build instruction:  Doxygen documentation
