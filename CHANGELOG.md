@@ -44,6 +44,10 @@
 
 ## [Unreleased]
 
+### Added
+
+* create `CITATION.cff`
+
 ### Changed
 
 * shorten project description
