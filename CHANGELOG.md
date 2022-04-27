@@ -44,6 +44,10 @@
 
 ## [Unreleased]
 
+### Changed
+
+* shorten project description
+
 ## [1.0] -- 2022-04-26
 
 ### Added
