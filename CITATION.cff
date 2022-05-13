@@ -209,3 +209,14 @@ references:
     url: https://www.gnu.org/software/octave/doc/v7.1.0/
 
 ################################################################################
+  - abstract: A collection of initialised source file templates.
+    authors:
+      - family-names: Matthes
+        given-names: Kevin
+    date-released: 2022-05-11
+    license: GPL-2.0
+    repository-artifact: https://github.com/kevinmatthes/blank
+    title: blank
+    type: software-code
+    url: https://github.com/kevinmatthes/blank
+    version: 0.0.3
