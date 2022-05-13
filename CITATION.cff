@@ -36,18 +36,18 @@ cff-version: 1.2.0
 message: Please cite this software using these meta data.
 
 # Version information.
-date-released: YYYY-MM-DD
-version: 0.0.0
+date-released: 2022-04-27
+version: 1.1
 
 # Project information.
-abstract: .
+abstract: A set of utilities concerning the GPL 2.0 license.
 authors:
-  - family-names: .
-    given-names: .
+  - family-names: Matthes
+    given-names: Kevin
 license: GPL-2.0
-repository-code: .
-title: .
-url: .
+repository-code: https://github.com/kevinmatthes/libgpl2
+title: libgpl2
+url: https://github.com/kevinmatthes/libpl2
 
 # References.
 references:
