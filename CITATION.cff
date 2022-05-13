@@ -49,6 +49,10 @@ repository-code: https://github.com/kevinmatthes/libgpl2
 title: libgpl2
 url: https://github.com/kevinmatthes/libpl2
 
+# Preferred citation.
+preferred-citation:
+  type: software-code
+
 # References.
 references:
   - type: generic
