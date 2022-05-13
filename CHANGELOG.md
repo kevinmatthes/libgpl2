@@ -53,6 +53,7 @@
 
 * optimise repository manual build instruction
 * unite `authors.yaml` and `project.yaml`
+* update `.gitignore`
 
 ### Fixed
 
