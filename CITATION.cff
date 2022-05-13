@@ -231,3 +231,14 @@ references:
     repository-code: https://github.com/kevinmatthes/cffreference
     title: cffreference
     url: https://github.com/kevinmatthes/cffreference
+  - abstract: A collection of common documentation configuration files.
+    authors:
+      - family-names: Matthes
+        given-names: Kevin
+    date-released: 2022-05-12
+    license: GPL-2.0
+    repository-artifact: https://github.com/kevinmatthes/docs-snippets
+    title: docs-snippets
+    type: software-code
+    url: https://github.com/kevinmatthes/docs-snippets
+    version: 0.0.0
