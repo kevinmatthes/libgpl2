@@ -54,7 +54,9 @@
 * optimise repository manual build instruction
 * unite `authors.yaml` and `project.yaml`
 * update Doxygen settings to version 1.9.1
+* update `docs-snippets`
 * update `.gitignore`
+* update `routines`
 
 ### Fixed
 
