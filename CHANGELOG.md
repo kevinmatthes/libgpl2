@@ -44,6 +44,11 @@
 
 ## [Unreleased]
 
+### Added
+
+* submodule `blank`
+* submodule `doxygen.cfg`
+
 ### Changed
 
 * unite `authors.yaml` and `project.yaml`
