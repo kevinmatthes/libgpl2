@@ -7,3 +7,6 @@
 [submodule "blank"]
 	path = blank
 	url = https://github.com/kevinmatthes/blank
+[submodule "doxygen.cfg"]
+	path = doxygen.cfg
+	url = https://github.com/kevinmatthes/doxygen.cfg
