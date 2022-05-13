@@ -54,6 +54,10 @@
 * optimise repository manual build instruction
 * unite `authors.yaml` and `project.yaml`
 
+### Fixed
+
+* incorrect `CITATION.cff`
+
 ### Removed
 
 * `authors.yaml`
