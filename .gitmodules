@@ -7,3 +7,6 @@
 [submodule "doxygen.cfg"]
 	path = doxygen.cfg
 	url = https://github.com/kevinmatthes/doxygen.cfg
+[submodule "routines"]
+	path = routines
+	url = https://github.com/kevinmatthes/routines
