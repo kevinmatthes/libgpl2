@@ -207,8 +207,6 @@ references:
         given-names: Rik
     year: 2022
     url: https://www.gnu.org/software/octave/doc/v7.1.0/
-
-################################################################################
   - abstract: A collection of initialised source file templates.
     authors:
       - family-names: Matthes
@@ -242,3 +240,5 @@ references:
     type: software-code
     url: https://github.com/kevinmatthes/docs-snippets
     version: 0.0.0
+
+################################################################################
