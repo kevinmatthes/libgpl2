@@ -48,6 +48,10 @@
 
 * unite `authors.yaml` and `project.yaml`
 
+### Removed
+
+* `authors.yaml`
+
 ## [1.1] -- 2022-04-27
 
 ### Added
