@@ -44,6 +44,8 @@
 
 ## [Unreleased]
 
+## [1.2] -- 2022-05-16
+
 ### Added
 
 * submodule `blank`
